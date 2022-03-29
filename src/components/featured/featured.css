@@ -1,0 +1,107 @@
+.featured {
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  padding: 0.6rem;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.featured .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: gray;
+}
+
+.featured .top .title {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.featured .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 1.25rem;
+  gap: .5rem;
+}
+
+.featured .bottom .featuredChart {
+  width: 6rem;
+  height: 6rem;
+}
+
+.featured .bottom .title {
+  color: gray;
+  font-weight: 500;
+}
+
+.featured .bottom .amount {
+  font-size: 1.8rem;
+}
+
+.featured .bottom .desc {
+  font-weight: 300;
+  font-size: .8rem;
+  color: gray;
+}
+
+.featured .bottom .summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+}
+
+.featured .bottom .summary .item {
+  text-align: center;
+}
+
+.featured .bottom .summary .itemTitle {
+  font-size: 1rem;
+  color: #555;
+}
+
+.featured .bottom .summary .itemResult {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: none;
+      -ms-flex-pack: none;
+          justify-content: none;
+  font-size: .9rem;
+}
+
+.featured .bottom .summary .itemResult.positive {
+  color: darkgreen;
+}
+
+.featured .bottom .summary .itemResult.negative {
+  color: red;
+}

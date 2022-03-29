@@ -1,0 +1,109 @@
+.new {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.new .newContainer {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+}
+
+.new .newContainer .top, .new .newContainer .bottom {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem;
+  margin: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.new .newContainer .top .title, .new .newContainer .bottom .title {
+  font-weight: 700;
+  color: #555;
+  font-size: 1.2rem;
+}
+
+.new .newContainer .top .left, .new .newContainer .bottom .left {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.new .newContainer .top .left img, .new .newContainer .bottom .left img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.new .newContainer .top .right, .new .newContainer .bottom .right {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}
+
+.new .newContainer .top .right form, .new .newContainer .bottom .right form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 1.2rem;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.new .newContainer .top .right form .formInput, .new .newContainer .bottom .right form .formInput {
+  width: 40%;
+}
+
+.new .newContainer .top .right form .formInput label, .new .newContainer .bottom .right form .formInput label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: .5rem;
+}
+
+.new .newContainer .top .right form .formInput label .icon, .new .newContainer .bottom .right form .formInput label .icon {
+  color: purple;
+  cursor: pointer;
+}
+
+.new .newContainer .top .right form .formInput input, .new .newContainer .bottom .right form .formInput input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.new .newContainer .top .right form .formInput input:focus, .new .newContainer .bottom .right form .formInput input:focus {
+  outline: none;
+}
+
+.new .newContainer .top .right form button, .new .newContainer .bottom .right form button {
+  width: 10rem;
+  color: white;
+  background-color: teal;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: 800;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+
+.new .newContainer .top .right form button:hover, .new .newContainer .bottom .right form button:hover {
+  background: darkturquoise;
+}

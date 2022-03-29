@@ -1,0 +1,76 @@
+.widget {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 1rem;
+  border-radius: 0.3rem;
+  height: 7rem;
+}
+
+.widget .left, .widget .right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.widget .left .title, .widget .right .title {
+  font-weight: bold;
+  font-size: .9rem;
+  color: #555;
+  text-transform: uppercase;
+}
+
+.widget .left .counter, .widget .right .counter {
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.widget .left .link, .widget .right .link {
+  border-bottom: 1px solid grey;
+  font-size: .8rem;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.widget .left .percentage, .widget .right .percentage {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: .8rem;
+}
+
+.widget .left .percentage.positive, .widget .right .percentage.positive {
+  color: darkgreen;
+}
+
+.widget .left .percentage.negative, .widget .right .percentage.negative {
+  color: red;
+}
+
+.widget .left .icon, .widget .right .icon {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  border-radius: .2rem;
+  padding: .25rem;
+  font-size: 1.5rem;
+  color: white;
+}

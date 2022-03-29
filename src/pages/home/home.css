@@ -1,0 +1,35 @@
+.home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.home .homeContainer {
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
+}
+
+.home .homeContainer .widgets, .home .homeContainer .charts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1.2rem;
+  gap: 1.2rem;
+}
+
+.home .homeContainer .charts, .home .homeContainer .listContainer {
+  padding: .25rem 1.25rem;
+}
+
+.home .homeContainer .listContainer {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 1.2rem;
+}
+
+.home .homeContainer .listContainer .listTitle {
+  font-weight: 500;
+  color: gray;
+  margin-bottom: .95rem;
+}

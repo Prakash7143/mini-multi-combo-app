@@ -1,0 +1,62 @@
+.dataTable {
+  padding: 1.1rem;
+}
+
+.dataTable .dataTableTitle {
+  width: 100%;
+  font-size: 1.5rem;
+  color: gray;
+  margin-bottom: .6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.dataTable .dataTableTitle .linkBtn {
+  text-decoration: none;
+  color: green;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid limegreen;
+  padding: 5px 10px;
+  cursor: pointer;
+  -webkit-transition: all 600ms ease;
+  transition: all 600ms ease;
+}
+
+.dataTable .dataTableTitle .linkBtn:hover {
+  background-color: limegreen;
+  color: white;
+}
+
+.dataTable .cellAction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+}
+
+.dataTable .cellAction .viewButton {
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: darkblue;
+  border: 1px solid darkblue;
+}
+
+.dataTable .cellAction .deleteButton {
+  padding: 2px 5px;
+  border-radius: 5px;
+  color: red;
+  border: 1px solid red;
+  cursor: pointer;
+}
